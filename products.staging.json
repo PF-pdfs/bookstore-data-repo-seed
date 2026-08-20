@@ -1,0 +1,18 @@
+{
+  "sections": [],
+  "products": [
+    {
+      "id": "ee-bundle",
+      "name": "EE Complete Bundle",
+      "price": 1499,
+      "mrp": 0,
+      "weight": 1.2,
+      "images": [],
+      "section": "",
+      "badge": "",
+      "description": "",
+      "details": [],
+      "inStock": true
+    }
+  ]
+}
