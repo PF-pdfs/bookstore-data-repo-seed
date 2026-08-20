@@ -23,17 +23,23 @@ description yet) so the admin panel has something to load. Replace it —
 or add the rest of the real catalog — from inside the panel; that's
 faster and safer than hand-editing this JSON.
 
+## Access
+
+Written to by the admin portal's `LANDING_SITE_GITHUB_TOKEN` — the same
+fine-grained PAT that already commits to `PF-pdfs/prepfusion-landing` for
+the Website Banner tab, reused here rather than minting a separate one,
+since both repos live under the same `PF-pdfs` org. No repo-specific env
+var needed.
+
+**That token's repository access list must include this repo with
+Contents: Read and write** — Settings on the token (not this repo) →
+Repository access. A read-only or missing grant here is a 403 on every
+save from the Bookstore tab, even though the tab loads fine (reads still
+work).
+
 ## Remaining setup
 
-This repo exists and is seeded, but two things still need doing before
-the admin panel's Bookstore tab will work:
-
-1. **Enable GitHub Pages** — Settings → Pages → Deploy from branch →
-   `main` → `/ (root)`. Then confirm `products.json` loads at its Pages
-   URL in a browser (likely
-   `https://pf-pdfs.github.io/bookstore-data-repo-seed/products.json`).
-2. **Create a fine-grained GitHub PAT**, scoped to *only this repo*,
-   with **Contents: read and write**. Add it to the admin portal's Render
-   service (`kb-ingest` → Environment) as `BOOKSTORE_REPO_TOKEN`.
-
-Once both are done, the Bookstore tab loads and saves against this repo.
+- [x] GitHub Pages — `https://pf-pdfs.github.io/bookstore-data-repo-seed/products.json`
+      is live.
+- [ ] Confirm the token above actually has write access to this specific
+      repo, not just read (see "Access").
