@@ -1,0 +1,119 @@
+# Render Blueprint for the admin ingest portal.
+#
+# One web service: the Express server also serves the built React admin UI out
+# of web/dist, so there is nothing to deploy separately as a static site.
+#
+# Nothing secret belongs in this file — it is committed. `sync: false` declares
+# that a variable exists but keeps its value in the Render dashboard only.
+
+services:
+  - type: web
+    name: kb-ingest
+    runtime: node
+    plan: free
+    region: singapore
+    branch: main
+
+    # devDependencies must be installed explicitly: Render sets
+    # NODE_ENV=production, which makes npm skip them, and vite lives there.
+    buildCommand: npm install && npm install --prefix web --include=dev && npm run build --prefix web
+    startCommand: npm start
+
+    # Reports the Mongo connection, so a deploy with a bad MONGODB_URI is
+    # rolled back instead of going live and 500ing every request.
+    healthCheckPath: /health
+
+    envVars:
+      # Turns on secure cookies, and makes a missing ADMIN_JWT_SECRET fail at
+      # startup rather than silently rotating on every restart.
+      - key: NODE_ENV
+        value: production
+
+      # This portal's own signing key, not a third-party credential, so Render
+      # generating it is fine. It is generated once and then held; changing it
+      # signs all admins out.
+      - key: ADMIN_JWT_SECRET
+        generateValue: true
+
+      # Both must be this service's own public origin, including the scheme:
+      # https://<service>.onrender.com — Render cannot fill that in for us, as
+      # its service references yield a bare hostname with no https:// prefix.
+      #
+      # ADMIN_API_BASE_URL is what keeps the Google redirect_uri correct: the
+      # app does not trust the proxy, so without this it would derive "http://"
+      # from req.protocol and Google would reject the callback as unregistered.
+      - key: ADMIN_APP_URL
+        sync: false
+      - key: ADMIN_API_BASE_URL
+        sync: false
+
+      # Seeds the first owner, and only when the admins collection is empty —
+      # a bootstrap, not a standing backdoor. Without it, an empty collection
+      # means nobody can sign in.
+      - key: ADMIN_BOOTSTRAP_OWNER
+        sync: false
+
+      # Seeds the first Bookstore-catalog owner — a permission distinct from
+      # ADMIN_BOOTSTRAP_OWNER above: it grants the Bookstore tab specifically,
+      # not full site ownership, and an ordinary owner does not get it for
+      # free. If the email has no admin account yet, one is created for it as
+      # a plain 'admin'. Optional: a site owner can also grant this later from
+      # the Administrators tab, so leaving it unset just means nobody starts
+      # with Bookstore access until an owner grants it by hand.
+      - key: BOOKSTORE_BOOTSTRAP_OWNER
+        sync: false
+
+      # Use the mongodb+srv:// form here. The pinned-shard-host workaround in
+      # the local .env exists only because this machine's DNS cannot do SRV
+      # lookups; those hostnames break when Atlas rescales the cluster.
+      # Atlas Network Access must allow 0.0.0.0/0 — the free plan has no static
+      # outbound IP.
+      - key: MONGODB_URI
+        sync: false
+
+      # Not a secret, and must match kb-website's: this portal writes the
+      # catalog the public site reads.
+      - key: MONGODB_DB
+        value: prepfusion_kb
+
+      # Same Google OAuth client as the public site; it just needs this
+      # service's callback added as an authorised redirect URI:
+      # https://<service>.onrender.com/api/auth/google/callback
+      - key: GOOGLE_OAUTH_CLIENT_ID
+        sync: false
+      - key: GOOGLE_OAUTH_CLIENT_SECRET
+        sync: false
+
+      # Reads the registered LaTeX question-bank repos.
+      - key: GITHUB_TOKEN
+        sync: false
+
+      # Lets a per-book Re-sync pull that book's current Overleaf content into
+      # GitHub before parsing it, by dispatching the backup orchestrator's
+      # workflow. Deliberately a second token rather than widening GITHUB_TOKEN:
+      # "Actions: write on one repo" is a much smaller grant to lose than read
+      # access to every content repo. Without it, Re-sync fails with a 403 that
+      # says so.
+      - key: BACKUP_ORCHESTRATOR_GITHUB_TOKEN
+        sync: false
+
+      # Not secret — which workflow to dispatch. Defaulted in code too; set here
+      # so the wiring is visible in the blueprint rather than only in a module.
+      - key: BACKUP_ORCHESTRATOR_REPO
+        value: prepfusiongatepyq/prepfusion-backup-orchestrator
+      - key: BACKUP_ORCHESTRATOR_WORKFLOW_FILE
+        value: hourly-backup.yml
+
+      # Lets the Website Banner tab commit to PF-pdfs/prepfusion-landing (the
+      # public marketing site), and the Bookstore tab read/commit the shop's
+      # catalog in PF-pdfs/bookstore-data-repo-seed (served over GitHub Pages,
+      # which is where the Cloudflare checkout Worker reads it from — Render
+      # is never in the path of a customer's purchase). One token covering
+      # both: they're the same PF-pdfs org, and this one has been granted
+      # Contents: read+write across it. Deliberately a third GitHub token
+      # rather than widening GITHUB_TOKEN — same reasoning as
+      # BACKUP_ORCHESTRATOR_GITHUB_TOKEN above: GITHUB_TOKEN is scoped
+      # read-only there. Without it, Publish in either tab fails with a 403
+      # that says so.
+      - key: LANDING_SITE_GITHUB_TOKEN
+        sync: false
