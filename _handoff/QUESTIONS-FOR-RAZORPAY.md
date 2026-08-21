@@ -82,3 +82,18 @@ before sending, or just send the questions.
 6. **Payments-list API** — if reconciliation ever gets automated (a
    scheduled job comparing payments against shipments), this is the API
    it would read.
+
+---
+
+## Added after the fact — activation page requirements
+
+> 7. **For the five required website pages (Terms and Conditions,
+>    Privacy Policy, Shipping Policy, Contact Us, Cancellation and
+>    Refunds) — do they need to exist at specific URL paths, or just be
+>    reachable/linked from the homepage? What does the "instant check"
+>    actually verify?**
+
+Why it matters: we plan to add these as plain routes on the same
+Cloudflare Worker that serves the shop. Knowing whether Razorpay's
+automated check looks for specific paths, link text, or just crawls from
+the homepage would save a guess-and-recheck cycle during live activation.

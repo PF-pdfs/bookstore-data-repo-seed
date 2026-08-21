@@ -167,3 +167,54 @@ node worker.e2e.mjs
 Both are plain Node, no install beyond what the repo already needs
 (nothing — they have zero dependencies), no wrangler, no network calls
 (everything is stubbed).
+
+---
+
+## NEW FINDING (not yet acted on) — Razorpay live-mode activation requires 5 website pages
+
+Checked against `razorpay.com/docs/payments/dashboard/account-settings/business-website-details/`
+on 2026-08-21, **after** everything else in this handoff was written. Not
+yet built. Read this before promoting anything to Razorpay **live mode**.
+
+**What it says:** before Razorpay issues **live** API keys, the business
+website submitted for activation must have five pages, and Razorpay runs
+"instant checks" against the URL to confirm they exist:
+
+1. Terms and Conditions
+2. Privacy Policy
+3. Shipping Policy
+4. Contact Us
+5. Cancellation and Refunds
+
+Their docs do **not** specify exact URL paths or what the automated
+check inspects (keyword match vs. link presence vs. something else) —
+that's a real open question, not something I could resolve further
+without testing it live or asking Razorpay directly. Worth adding as a
+question to `QUESTIONS-FOR-RAZORPAY.md` if it isn't already there.
+
+**What this does and doesn't block:**
+- Does **NOT** block the test-mode purchase in "What's actually left"
+  step 4 above — test mode doesn't require live activation.
+- **DOES** block going live for real — no live keys until Razorpay
+  approves the submitted site.
+
+**Not built.** None of these five pages exist anywhere in `worker.js`'s
+storefront (`GET /` is only the shop). They would be five more routes on
+the same Worker, same pattern as the shop page.
+
+**Why this wasn't just built on the spot:** Cancellation & Refunds and
+Terms & Conditions are legally binding text tied to real money. Drafting
+reasonable boilerplate is easy; it is not legal advice, and those two
+specifically are worth a human (ideally a lawyer, at minimum the site
+owner) reviewing before they go live — not something to ship on a
+model's judgment alone. Privacy Policy, Shipping Policy and Contact Us
+are lower-stakes and safe to draft directly.
+
+**Next step for whoever picks this up:** draft all five as plain routes
+on the Worker (`GET /terms`, `/privacy`, `/shipping`, `/contact`,
+`/refunds` or similar), consistent with what's already true elsewhere in
+this system — e.g. Shipping Policy should say "Free shipping across
+India" and must NOT mention weight (weight is admin-only throughout this
+whole project, on explicit instruction from the site owner). Get the
+Cancellation & Refunds and Terms pages reviewed by a human before
+submitting the site for Razorpay's live activation check.
