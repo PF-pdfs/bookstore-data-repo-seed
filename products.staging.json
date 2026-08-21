@@ -25,67 +25,33 @@
   ],
   "products": [
     {
-      "id": "nexusx-vol1",
-      "name": "NexusX Volume 1",
+      "id": "nexusx",
+      "name": "NexusX (Volume 1 + Volume 2)",
       "price": 1,
       "mrp": 0,
-      "weight": 1.2,
-      "badge": "40 Years of PYQs",
+      "weight": 1.95,
+      "badge": "2-Book Set",
       "inStock": true,
-      "description": "Forty years of GATE questions (1987-2026) on the subjects EC, EE and IN share: Network Theory, Analog Electronics and Digital Electronics. 2000+ chapter-wise PYQs with detailed multi-approach solutions, a companion solutions PDF, and a 3-dot difficulty marker on every question.",
+      "description": "Both NexusX volumes, sold together as one set. Volume 1 covers Network Theory, Analog Electronics and Digital Electronics (2000+ questions); Volume 2 covers Signals & Systems and Control Systems (1300+ questions). Together they cover every subject EC, EE and IN share, with 3300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions, companion solutions PDFs and a 3-dot difficulty marker on every question.",
       "details": [
         {
+          "label": "Included",
+          "value": "Volume 1 + Volume 2 (2 books)"
+        },
+        {
           "label": "Questions",
-          "value": "2000+"
+          "value": "3300+ across both volumes"
         },
         {
           "label": "Years covered",
           "value": "1987-2026 (40 years)"
         },
         {
-          "label": "Subjects",
+          "label": "Vol 1 subjects",
           "value": "Network Theory, Analog & Digital Electronics"
         },
         {
-          "label": "Branches",
-          "value": "EC, EE, IN"
-        },
-        {
-          "label": "Format",
-          "value": "A4 paperback"
-        },
-        {
-          "label": "Includes",
-          "value": "Companion solutions PDF"
-        }
-      ],
-      "images": [
-        "images/nexusx-vol1-front.jpg",
-        "images/nexusx-vol1-back.jpg"
-      ],
-      "image": "images/nexusx-vol1-front.jpg",
-      "section": "common-ec-ee-in"
-    },
-    {
-      "id": "nexusx-vol2",
-      "name": "NexusX Volume 2",
-      "price": 1,
-      "mrp": 0,
-      "weight": 0.75,
-      "badge": "",
-      "inStock": true,
-      "description": "The second NexusX volume covers Signals & Systems and Control Systems - the other two subjects EC, EE and IN share - with 1300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions and the companion solutions PDF.",
-      "details": [
-        {
-          "label": "Questions",
-          "value": "1300+"
-        },
-        {
-          "label": "Years covered",
-          "value": "1987-2026 (40 years)"
-        },
-        {
-          "label": "Subjects",
+          "label": "Vol 2 subjects",
           "value": "Signals & Systems, Control Systems"
         },
         {
@@ -98,14 +64,16 @@
         },
         {
           "label": "Includes",
-          "value": "Companion solutions PDF"
+          "value": "Companion solutions PDFs"
         }
       ],
       "images": [
+        "images/nexusx-vol1-front.jpg",
         "images/nexusx-vol2-front.jpg",
+        "images/nexusx-vol1-back.jpg",
         "images/nexusx-vol2-back.jpg"
       ],
-      "image": "images/nexusx-vol2-front.jpg",
+      "image": "images/nexusx-vol1-front.jpg",
       "section": "common-ec-ee-in"
     },
     {
