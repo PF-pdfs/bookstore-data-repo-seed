@@ -1,18 +1,280 @@
 {
-  "sections": [],
+  "settings": {
+    "storeOpen": true,
+    "maintenanceMessage": "",
+    "postPurchaseHeading": "Order confirmed!",
+    "postPurchaseBody": "Thanks for shopping with PrepFusion - your books are on their way, and the confirmation email has your tracking details. While they ship, keep your prep moving on our courses.",
+    "postPurchaseCtaLabel": "Go to my courses",
+    "postPurchaseCtaUrl": "https://go.prepfusion.in",
+    "emailIntro": "",
+    "emailSignoff": ""
+  },
+  "sections": [
+    {
+      "id": "common-ec-ee-in",
+      "title": "Common Subjects - EC / EE / IN"
+    },
+    {
+      "id": "branch-core",
+      "title": "Branch Core Books"
+    },
+    {
+      "id": "all-branches",
+      "title": "For Every Branch"
+    }
+  ],
   "products": [
     {
-      "id": "ee-bundle",
-      "name": "EE Complete Bundle",
-      "price": 1499,
+      "id": "nexusx-vol1",
+      "name": "NexusX Volume 1",
+      "price": 1,
       "mrp": 0,
       "weight": 1.2,
-      "images": [],
-      "section": "",
+      "badge": "40 Years of PYQs",
+      "inStock": true,
+      "description": "Forty years of GATE questions (1987-2026) on the subjects EC, EE and IN share: Network Theory, Analog Electronics and Digital Electronics. 2000+ chapter-wise PYQs with detailed multi-approach solutions, a companion solutions PDF, and a 3-dot difficulty marker on every question.",
+      "details": [
+        {
+          "label": "Questions",
+          "value": "2000+"
+        },
+        {
+          "label": "Years covered",
+          "value": "1987-2026 (40 years)"
+        },
+        {
+          "label": "Subjects",
+          "value": "Network Theory, Analog & Digital Electronics"
+        },
+        {
+          "label": "Branches",
+          "value": "EC, EE, IN"
+        },
+        {
+          "label": "Format",
+          "value": "A4 paperback"
+        },
+        {
+          "label": "Includes",
+          "value": "Companion solutions PDF"
+        }
+      ],
+      "images": [
+        "images/nexusx-vol1-front.jpg",
+        "images/nexusx-vol1-back.jpg"
+      ],
+      "image": "images/nexusx-vol1-front.jpg",
+      "section": "common-ec-ee-in"
+    },
+    {
+      "id": "nexusx-vol2",
+      "name": "NexusX Volume 2",
+      "price": 1,
+      "mrp": 0,
+      "weight": 0.75,
       "badge": "",
-      "description": "",
-      "details": [],
-      "inStock": true
+      "inStock": true,
+      "description": "The second NexusX volume covers Signals & Systems and Control Systems - the other two subjects EC, EE and IN share - with 1300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions and the companion solutions PDF.",
+      "details": [
+        {
+          "label": "Questions",
+          "value": "1300+"
+        },
+        {
+          "label": "Years covered",
+          "value": "1987-2026 (40 years)"
+        },
+        {
+          "label": "Subjects",
+          "value": "Signals & Systems, Control Systems"
+        },
+        {
+          "label": "Branches",
+          "value": "EC, EE, IN"
+        },
+        {
+          "label": "Format",
+          "value": "A4 paperback"
+        },
+        {
+          "label": "Includes",
+          "value": "Companion solutions PDF"
+        }
+      ],
+      "images": [
+        "images/nexusx-vol2-front.jpg",
+        "images/nexusx-vol2-back.jpg"
+      ],
+      "image": "images/nexusx-vol2-front.jpg",
+      "section": "common-ec-ee-in"
+    },
+    {
+      "id": "powerx",
+      "name": "PowerX",
+      "price": 1,
+      "mrp": 0,
+      "weight": 0.65,
+      "badge": "GATE EE Core",
+      "inStock": true,
+      "description": "The core of GATE Electrical Engineering in one book: Electrical Machines, Power Systems, Power Electronics, Electromagnetic Fields and Measurements. 1200+ chapter-wise PYQs from 1987-2026 with detailed multi-approach solutions and the companion solutions PDF.",
+      "details": [
+        {
+          "label": "Questions",
+          "value": "1200+"
+        },
+        {
+          "label": "Years covered",
+          "value": "1987-2026 (40 years)"
+        },
+        {
+          "label": "Subjects",
+          "value": "Machines, Power Systems, Power Electronics, EM Fields, Measurements"
+        },
+        {
+          "label": "Branch",
+          "value": "EE"
+        },
+        {
+          "label": "Format",
+          "value": "A4 paperback"
+        },
+        {
+          "label": "Includes",
+          "value": "Companion solutions PDF"
+        }
+      ],
+      "images": [
+        "images/powerx-front.jpg",
+        "images/powerx-back.jpg"
+      ],
+      "image": "images/powerx-front.jpg",
+      "section": "branch-core"
+    },
+    {
+      "id": "siliconx",
+      "name": "SiliconX",
+      "price": 1,
+      "mrp": 0,
+      "weight": 0.4,
+      "badge": "GATE EC Core",
+      "inStock": true,
+      "description": "The core of GATE Electronics & Communication: Electronic Devices, Communications and Electromagnetics. 600+ chapter-wise PYQs from 1987-2026 with detailed multi-approach solutions and the companion solutions PDF.",
+      "details": [
+        {
+          "label": "Questions",
+          "value": "600+"
+        },
+        {
+          "label": "Years covered",
+          "value": "1987-2026 (40 years)"
+        },
+        {
+          "label": "Subjects",
+          "value": "Electronic Devices, Communications, Electromagnetics"
+        },
+        {
+          "label": "Branch",
+          "value": "EC"
+        },
+        {
+          "label": "Format",
+          "value": "A4 paperback"
+        },
+        {
+          "label": "Includes",
+          "value": "Companion solutions PDF"
+        }
+      ],
+      "images": [
+        "images/siliconx-front.jpg",
+        "images/siliconx-back.jpg"
+      ],
+      "image": "images/siliconx-front.jpg",
+      "section": "branch-core"
+    },
+    {
+      "id": "engineering-mathematics",
+      "name": "Engineering Mathematics",
+      "price": 1,
+      "mrp": 0,
+      "weight": 0.55,
+      "badge": "8 Branches",
+      "inStock": true,
+      "description": "33 years of GATE mathematics (1994-2026) across EC, EE, IN, CS, ME, CE, CH and PI: Calculus, Linear Algebra, Differential Equations, Vector Calculus, Probability & Statistics and Numerical Methods. 1700+ chapter-wise PYQs with detailed solutions and the companion solutions PDF.",
+      "details": [
+        {
+          "label": "Questions",
+          "value": "1700+"
+        },
+        {
+          "label": "Years covered",
+          "value": "1994-2026 (33 years)"
+        },
+        {
+          "label": "Subjects",
+          "value": "Calculus, Linear Algebra, Diff. Equations, Vector Calculus, Probability, Numerical Methods"
+        },
+        {
+          "label": "Branches",
+          "value": "EC, EE, IN, CS, ME, CE, CH, PI"
+        },
+        {
+          "label": "Format",
+          "value": "A4 paperback"
+        },
+        {
+          "label": "Includes",
+          "value": "Companion solutions PDF"
+        }
+      ],
+      "images": [
+        "images/engineering-mathematics-front.jpg",
+        "images/engineering-mathematics-back.jpg"
+      ],
+      "image": "images/engineering-mathematics-front.jpg",
+      "section": "all-branches"
+    },
+    {
+      "id": "general-aptitude",
+      "name": "General Aptitude",
+      "price": 1,
+      "mrp": 0,
+      "weight": 0.55,
+      "badge": "All Branches",
+      "inStock": true,
+      "description": "Every General Aptitude question GATE has asked since the GA section began: 17 years (2010-2026), 1200+ questions, organised session-wise so you can drill full papers. Detailed solutions, the companion solutions PDF and the 3-dot difficulty marker throughout.",
+      "details": [
+        {
+          "label": "Questions",
+          "value": "1200+"
+        },
+        {
+          "label": "Years covered",
+          "value": "2010-2026 (17 years)"
+        },
+        {
+          "label": "Organised",
+          "value": "Session-wise"
+        },
+        {
+          "label": "Branches",
+          "value": "All"
+        },
+        {
+          "label": "Format",
+          "value": "A4 paperback"
+        },
+        {
+          "label": "Includes",
+          "value": "Companion solutions PDF"
+        }
+      ],
+      "images": [
+        "images/general-aptitude-front.jpg",
+        "images/general-aptitude-back.jpg"
+      ],
+      "image": "images/general-aptitude-front.jpg",
+      "section": "all-branches"
     }
   ]
 }
