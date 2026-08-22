@@ -11,26 +11,108 @@
   },
   "sections": [
     {
-      "id": "common-ec-ee-in",
-      "title": "Common Subjects - EC / EE / IN"
+      "id": "bundles",
+      "title": "Complete Bundles"
     },
     {
-      "id": "branch-core",
-      "title": "Branch Core Books"
-    },
-    {
-      "id": "all-branches",
-      "title": "For Every Branch"
+      "id": "individual-books",
+      "title": "Individual Books"
     }
   ],
   "products": [
+    {
+      "id": "ee-complete-bundle",
+      "name": "GATE 2027 EE Complete Bundle",
+      "price": 1,
+      "mrp": 0,
+      "weight": 3.7,
+      "badge": "EE",
+      "inStock": true,
+      "stock": null,
+      "description": "Everything GATE Electrical needs, in one box: Engineering Mathematics, NexusX Volume 1 and Volume 2, PowerX and General Aptitude. Five books, 7400+ chapter-wise previous-year questions with detailed multi-approach solutions, companion solutions PDFs for every title, and the 3-dot difficulty marker throughout. Covers the common EC/EE/IN subjects, the EE branch core, the maths, and the aptitude - nothing else to buy.",
+      "details": [
+        {
+          "label": "Books",
+          "value": "5 books"
+        },
+        {
+          "label": "Questions",
+          "value": "7400+"
+        },
+        {
+          "label": "Branch",
+          "value": "EE"
+        },
+        {
+          "label": "Years covered",
+          "value": "1987-2026"
+        },
+        {
+          "label": "Includes",
+          "value": "Engineering Mathematics, NexusX Vol 1 & 2, PowerX, General Aptitude"
+        },
+        {
+          "label": "Format",
+          "value": "A4 paperback"
+        }
+      ],
+      "images": [
+        "images/ee-bundle-front.jpg",
+        "images/book-highlights.jpg"
+      ],
+      "image": "images/ee-bundle-front.jpg",
+      "section": "bundles"
+    },
+    {
+      "id": "ec-complete-bundle",
+      "name": "GATE 2027 EC Complete Bundle",
+      "price": 1,
+      "mrp": 0,
+      "weight": 3.45,
+      "badge": "EC",
+      "inStock": true,
+      "stock": null,
+      "description": "Everything GATE Electronics & Communication needs, in one box: Engineering Mathematics, NexusX Volume 1 and Volume 2, SiliconX and General Aptitude. Five books, 6800+ chapter-wise previous-year questions with detailed multi-approach solutions, companion solutions PDFs for every title, and the 3-dot difficulty marker throughout. Covers the common EC/EE/IN subjects, the EC branch core, the maths, and the aptitude - nothing else to buy.",
+      "details": [
+        {
+          "label": "Books",
+          "value": "5 books"
+        },
+        {
+          "label": "Questions",
+          "value": "6800+"
+        },
+        {
+          "label": "Branch",
+          "value": "EC"
+        },
+        {
+          "label": "Years covered",
+          "value": "1987-2026"
+        },
+        {
+          "label": "Includes",
+          "value": "Engineering Mathematics, NexusX Vol 1 & 2, SiliconX, General Aptitude"
+        },
+        {
+          "label": "Format",
+          "value": "A4 paperback"
+        }
+      ],
+      "images": [
+        "images/ec-bundle-front.jpg",
+        "images/book-highlights.jpg"
+      ],
+      "image": "images/ec-bundle-front.jpg",
+      "section": "bundles"
+    },
     {
       "id": "nexusx",
       "name": "NexusX (Volume 1 + Volume 2)",
       "price": 1,
       "mrp": 0,
       "weight": 1.95,
-      "badge": "2-Book Set",
+      "badge": "EC · EE · IN",
       "inStock": true,
       "description": "Both NexusX volumes, sold together as one set. Volume 1 covers Network Theory, Analog Electronics and Digital Electronics (2000+ questions); Volume 2 covers Signals & Systems and Control Systems (1300+ questions). Together they cover every subject EC, EE and IN share, with 3300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions, companion solutions PDFs and a 3-dot difficulty marker on every question.",
       "details": [
@@ -74,7 +156,8 @@
         "images/nexusx-vol2-back.jpg"
       ],
       "image": "images/nexusx-vol1-front.jpg",
-      "section": "common-ec-ee-in"
+      "section": "individual-books",
+      "stock": null
     },
     {
       "id": "powerx",
@@ -82,7 +165,7 @@
       "price": 1,
       "mrp": 0,
       "weight": 0.65,
-      "badge": "GATE EE Core",
+      "badge": "EE",
       "inStock": true,
       "description": "The core of GATE Electrical Engineering in one book: Electrical Machines, Power Systems, Power Electronics, Electromagnetic Fields and Measurements. 1200+ chapter-wise PYQs from 1987-2026 with detailed multi-approach solutions and the companion solutions PDF.",
       "details": [
@@ -116,7 +199,8 @@
         "images/powerx-back.jpg"
       ],
       "image": "images/powerx-front.jpg",
-      "section": "branch-core"
+      "section": "individual-books",
+      "stock": null
     },
     {
       "id": "siliconx",
@@ -124,7 +208,7 @@
       "price": 1,
       "mrp": 0,
       "weight": 0.4,
-      "badge": "GATE EC Core",
+      "badge": "EC",
       "inStock": true,
       "description": "The core of GATE Electronics & Communication: Electronic Devices, Communications and Electromagnetics. 600+ chapter-wise PYQs from 1987-2026 with detailed multi-approach solutions and the companion solutions PDF.",
       "details": [
@@ -158,7 +242,8 @@
         "images/siliconx-back.jpg"
       ],
       "image": "images/siliconx-front.jpg",
-      "section": "branch-core"
+      "section": "individual-books",
+      "stock": null
     },
     {
       "id": "engineering-mathematics",
@@ -166,7 +251,7 @@
       "price": 1,
       "mrp": 0,
       "weight": 0.55,
-      "badge": "8 Branches",
+      "badge": "All Branches",
       "inStock": true,
       "description": "33 years of GATE mathematics (1994-2026) across EC, EE, IN, CS, ME, CE, CH and PI: Calculus, Linear Algebra, Differential Equations, Vector Calculus, Probability & Statistics and Numerical Methods. 1700+ chapter-wise PYQs with detailed solutions and the companion solutions PDF.",
       "details": [
@@ -200,7 +285,8 @@
         "images/engineering-mathematics-back.jpg"
       ],
       "image": "images/engineering-mathematics-front.jpg",
-      "section": "all-branches"
+      "section": "individual-books",
+      "stock": null
     },
     {
       "id": "general-aptitude",
@@ -242,7 +328,8 @@
         "images/general-aptitude-back.jpg"
       ],
       "image": "images/general-aptitude-front.jpg",
-      "section": "all-branches"
+      "section": "individual-books",
+      "stock": null
     }
   ]
 }
