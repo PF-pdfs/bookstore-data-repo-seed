@@ -61,7 +61,13 @@
         "images/book-highlights.jpg"
       ],
       "image": "images/ec-bundle-front.jpg",
-      "section": "bundles"
+      "section": "bundles",
+      "bundleComponents": [
+        "engineering-mathematics",
+        "nexusx",
+        "siliconx",
+        "general-aptitude"
+      ]
     },
     {
       "id": "ee-complete-bundle",
@@ -104,7 +110,13 @@
         "images/book-highlights.jpg"
       ],
       "image": "images/ee-bundle-front.jpg",
-      "section": "bundles"
+      "section": "bundles",
+      "bundleComponents": [
+        "engineering-mathematics",
+        "nexusx",
+        "powerx",
+        "general-aptitude"
+      ]
     },
     {
       "id": "nexusx",
@@ -155,7 +167,8 @@
         "images/nexusx-vol2-front.jpg"
       ],
       "image": "images/nexusx-vol1-front.jpg",
-      "section": "individual-books"
+      "section": "individual-books",
+      "bundleSplitPrice": 499
     },
     {
       "id": "siliconx",
@@ -198,7 +211,8 @@
         "images/siliconx-back.jpg"
       ],
       "image": "images/siliconx-front.jpg",
-      "section": "individual-books"
+      "section": "individual-books",
+      "bundleSplitPrice": 199
     },
     {
       "id": "powerx",
@@ -241,7 +255,8 @@
         "images/powerx-back.jpg"
       ],
       "image": "images/powerx-front.jpg",
-      "section": "individual-books"
+      "section": "individual-books",
+      "bundleSplitPrice": 249
     },
     {
       "id": "engineering-mathematics",
@@ -284,7 +299,8 @@
         "images/engineering-mathematics-back.jpg"
       ],
       "image": "images/engineering-mathematics-front.jpg",
-      "section": "individual-books"
+      "section": "individual-books",
+      "bundleSplitPrice": 199
     },
     {
       "id": "general-aptitude",
@@ -327,7 +343,8 @@
         "images/general-aptitude-back.jpg"
       ],
       "image": "images/general-aptitude-front.jpg",
-      "section": "individual-books"
+      "section": "individual-books",
+      "bundleSplitPrice": 199
     }
   ]
 }
