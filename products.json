@@ -25,7 +25,7 @@
     {
       "id": "ec-complete-bundle",
       "name": "GATE 2027 EC Complete Bundle",
-      "price": 1,
+      "price": 899,
       "mrp": 1099,
       "weight": 3.45,
       "badge": "EC",
@@ -74,7 +74,7 @@
     {
       "id": "ee-complete-bundle",
       "name": "GATE 2027 EE Complete Bundle",
-      "price": 1,
+      "price": 899,
       "mrp": 1099,
       "weight": 3.7,
       "badge": "EE",
@@ -123,7 +123,7 @@
     {
       "id": "nexusx",
       "name": "NexusX (Volume 1 + Volume 2)",
-      "price": 1,
+      "price": 499,
       "mrp": 899,
       "weight": 1.95,
       "badge": "EC · EE · IN",
@@ -219,7 +219,7 @@
     {
       "id": "powerx",
       "name": "PowerX",
-      "price": 1,
+      "price": 249,
       "mrp": 349,
       "weight": 0.65,
       "badge": "EE",
@@ -263,7 +263,7 @@
     {
       "id": "engineering-mathematics",
       "name": "Engineering Mathematics",
-      "price": 1,
+      "price": 199,
       "mrp": 299,
       "weight": 0.55,
       "badge": "All Branches",
@@ -307,7 +307,7 @@
     {
       "id": "general-aptitude",
       "name": "General Aptitude",
-      "price": 1,
+      "price": 199,
       "mrp": 299,
       "weight": 0.55,
       "badge": "All Branches",
