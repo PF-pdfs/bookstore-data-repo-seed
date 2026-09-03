@@ -2,8 +2,10 @@
   "settings": {
     "storeOpen": true,
     "maintenanceMessage": "",
+    "shippingNoticeActive": true,
+    "shippingNoticeMessage": "Please note: orders are open, but deliveries begin Tuesday due to a printing delay. Expect delivery within 10 days of ordering.",
     "postPurchaseHeading": "Order confirmed!",
-    "postPurchaseBody": "Thanks for shopping with PrepFusion. You'll get your tracking details on WhatsApp once your order ships - usually within 24 hours, as booking the shipment takes a little time. You can also check your order any time on the My account page.",
+    "postPurchaseBody": "Thanks for shopping with PrepFusion. You'll get your tracking details on WhatsApp once your order ships - usually within 72 hours, as booking the shipment takes a little time. You can also check your order any time on the My account page.",
     "postPurchaseCtaLabel": "Go to my courses",
     "postPurchaseCtaUrl": "https://go.prepfusion.in",
     "emailIntro": "",
@@ -28,7 +30,6 @@
       "weight": 3.45,
       "badge": "EC",
       "inStock": true,
-      "stock": null,
       "description": "Everything GATE Electronics & Communication needs, in one box: Engineering Mathematics, NexusX Volume 1 and Volume 2, SiliconX and General Aptitude. Five books, 6800+ chapter-wise previous-year questions with detailed multi-approach solutions, companion solutions PDFs for every title, and the 3-dot difficulty marker throughout. Covers the common EC/EE/IN subjects, the EC branch core, the maths, and the aptitude - nothing else to buy.",
       "details": [
         {
@@ -67,7 +68,8 @@
         "nexusx",
         "siliconx",
         "general-aptitude"
-      ]
+      ],
+      "bundleSplitPrice": 0
     },
     {
       "id": "ee-complete-bundle",
@@ -77,7 +79,6 @@
       "weight": 3.7,
       "badge": "EE",
       "inStock": true,
-      "stock": null,
       "description": "Everything GATE Electrical needs, in one box: Engineering Mathematics, NexusX Volume 1 and Volume 2, PowerX and General Aptitude. Five books, 7400+ chapter-wise previous-year questions with detailed multi-approach solutions, companion solutions PDFs for every title, and the 3-dot difficulty marker throughout. Covers the common EC/EE/IN subjects, the EE branch core, the maths, and the aptitude - nothing else to buy.",
       "details": [
         {
@@ -116,7 +117,8 @@
         "nexusx",
         "powerx",
         "general-aptitude"
-      ]
+      ],
+      "bundleSplitPrice": 0
     },
     {
       "id": "nexusx",
@@ -126,7 +128,6 @@
       "weight": 1.95,
       "badge": "EC · EE · IN",
       "inStock": true,
-      "stock": null,
       "description": "Both NexusX volumes, sold together as one set. Volume 1 covers Network Theory, Analog Electronics and Digital Electronics (2000+ questions); Volume 2 covers Signals & Systems and Control Systems (1300+ questions). Together they cover every subject EC, EE and IN share, with 3300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions, companion solutions PDFs and a 3-dot difficulty marker on every question.",
       "details": [
         {
@@ -168,6 +169,7 @@
       ],
       "image": "images/nexusx-vol1-front.jpg",
       "section": "individual-books",
+      "bundleComponents": [],
       "bundleSplitPrice": 499
     },
     {
@@ -178,7 +180,6 @@
       "weight": 0.4,
       "badge": "EC",
       "inStock": true,
-      "stock": null,
       "description": "The core of GATE Electronics & Communication: Electronic Devices, Communications and Electromagnetics. 600+ chapter-wise PYQs from 1987-2026 with detailed multi-approach solutions and the companion solutions PDF.",
       "details": [
         {
@@ -212,6 +213,7 @@
       ],
       "image": "images/siliconx-front.jpg",
       "section": "individual-books",
+      "bundleComponents": [],
       "bundleSplitPrice": 199
     },
     {
@@ -222,7 +224,6 @@
       "weight": 0.65,
       "badge": "EE",
       "inStock": true,
-      "stock": null,
       "description": "The core of GATE Electrical Engineering in one book: Electrical Machines, Power Systems, Power Electronics, Electromagnetic Fields and Measurements. 1200+ chapter-wise PYQs from 1987-2026 with detailed multi-approach solutions and the companion solutions PDF.",
       "details": [
         {
@@ -256,6 +257,7 @@
       ],
       "image": "images/powerx-front.jpg",
       "section": "individual-books",
+      "bundleComponents": [],
       "bundleSplitPrice": 249
     },
     {
@@ -266,7 +268,6 @@
       "weight": 0.55,
       "badge": "All Branches",
       "inStock": true,
-      "stock": null,
       "description": "33 years of GATE mathematics (1994-2026) across EC, EE, IN, CS, ME, CE, CH and PI: Calculus, Linear Algebra, Differential Equations, Vector Calculus, Probability & Statistics and Numerical Methods. 1700+ chapter-wise PYQs with detailed solutions and the companion solutions PDF.",
       "details": [
         {
@@ -300,6 +301,7 @@
       ],
       "image": "images/engineering-mathematics-front.jpg",
       "section": "individual-books",
+      "bundleComponents": [],
       "bundleSplitPrice": 199
     },
     {
@@ -310,7 +312,6 @@
       "weight": 0.55,
       "badge": "All Branches",
       "inStock": true,
-      "stock": null,
       "description": "Every General Aptitude question GATE has asked since the GA section began: 17 years (2010-2026), 1200+ questions, organised session-wise so you can drill full papers. Detailed solutions, the companion solutions PDF and the 3-dot difficulty marker throughout.",
       "details": [
         {
@@ -344,6 +345,7 @@
       ],
       "image": "images/general-aptitude-front.jpg",
       "section": "individual-books",
+      "bundleComponents": [],
       "bundleSplitPrice": 199
     }
   ]
