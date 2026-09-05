@@ -168,16 +168,110 @@
         "images/nexusx-vol2-front.jpg"
       ],
       "image": "images/nexusx-vol1-front.jpg",
-      "section": "individual-books",
+      "section": "bundles",
       "bundleComponents": [],
       "bundleSplitPrice": 499
+    },
+    {
+      "id": "nexus-v1",
+      "name": "NexusX (Volume 1)",
+      "price": 399,
+      "mrp": 499,
+      "weight": 1.2,
+      "badge": "EC · EE · IN",
+      "inStock": true,
+      "description": "Volume 1 covers Network Theory, Analog Electronics and Digital Electronics (2000+ questions). Together they cover every subject EC, EE and IN share, with 3300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions, companion solutions PDFs and a 3-dot difficulty marker on every question.",
+      "details": [
+        {
+          "label": "Included",
+          "value": "Volume 1  (1 book)"
+        },
+        {
+          "label": "Questions",
+          "value": "2000+ across both volumes"
+        },
+        {
+          "label": "Years covered",
+          "value": "1987-2026 (40 years)"
+        },
+        {
+          "label": "Vol 1 subjects",
+          "value": "Network Theory, Analog & Digital Electronics"
+        },
+        {
+          "label": "Branches",
+          "value": "EC, EE, IN"
+        },
+        {
+          "label": "Format",
+          "value": "A4 paperback"
+        },
+        {
+          "label": "Includes",
+          "value": "Companion solutions PDFs"
+        }
+      ],
+      "images": [
+        "images/nexusx-vol1-front.jpg"
+      ],
+      "image": "images/nexusx-vol1-front.jpg",
+      "section": "individual-books",
+      "bundleComponents": [],
+      "bundleSplitPrice": 0
+    },
+    {
+      "id": "nexus-v2",
+      "name": "NexusX ( Volume 2)",
+      "price": 299,
+      "mrp": 399,
+      "weight": 0.72,
+      "badge": "EC · EE · IN",
+      "inStock": true,
+      "description": "Volume 2 covers Signals & Systems and Control Systems (1300+ questions). Together they cover every subject EC, EE and IN share, with 3300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions, companion solutions PDFs and a 3-dot difficulty marker on every question.",
+      "details": [
+        {
+          "label": "Included",
+          "value": "Volume 2 (1 book)"
+        },
+        {
+          "label": "Questions",
+          "value": "1300+ across both volumes"
+        },
+        {
+          "label": "Years covered",
+          "value": "1987-2026 (40 years)"
+        },
+        {
+          "label": "Vol 2 subjects",
+          "value": "Signals & Systems, Control Systems"
+        },
+        {
+          "label": "Branches",
+          "value": "EC, EE, IN"
+        },
+        {
+          "label": "Format",
+          "value": "A4 paperback"
+        },
+        {
+          "label": "Includes",
+          "value": "Companion solutions PDFs"
+        }
+      ],
+      "images": [
+        "images/nexusx-vol2-front.jpg"
+      ],
+      "image": "images/nexusx-vol2-front.jpg",
+      "section": "individual-books",
+      "bundleComponents": [],
+      "bundleSplitPrice": 0
     },
     {
       "id": "siliconx",
       "name": "SiliconX",
       "price": 199,
       "mrp": 299,
-      "weight": 0.4,
+      "weight": 0.38,
       "badge": "EC",
       "inStock": true,
       "description": "The core of GATE Electronics & Communication: Electronic Devices, Communications and Electromagnetics. 600+ chapter-wise PYQs from 1987-2026 with detailed multi-approach solutions and the companion solutions PDF.",
@@ -221,7 +315,7 @@
       "name": "PowerX",
       "price": 249,
       "mrp": 349,
-      "weight": 0.65,
+      "weight": 0.62,
       "badge": "EE",
       "inStock": true,
       "description": "The core of GATE Electrical Engineering in one book: Electrical Machines, Power Systems, Power Electronics, Electromagnetic Fields and Measurements. 1200+ chapter-wise PYQs from 1987-2026 with detailed multi-approach solutions and the companion solutions PDF.",
@@ -265,7 +359,7 @@
       "name": "Engineering Mathematics",
       "price": 199,
       "mrp": 299,
-      "weight": 0.55,
+      "weight": 0.56,
       "badge": "All Branches",
       "inStock": true,
       "description": "33 years of GATE mathematics (1994-2026) across EC, EE, IN, CS, ME, CE, CH and PI: Calculus, Linear Algebra, Differential Equations, Vector Calculus, Probability & Statistics and Numerical Methods. 1700+ chapter-wise PYQs with detailed solutions and the companion solutions PDF.",
@@ -309,7 +403,7 @@
       "name": "General Aptitude",
       "price": 199,
       "mrp": 299,
-      "weight": 0.55,
+      "weight": 0.5,
       "badge": "All Branches",
       "inStock": true,
       "description": "Every General Aptitude question GATE has asked since the GA section began: 17 years (2010-2026), 1200+ questions, organised session-wise so you can drill full papers. Detailed solutions, the companion solutions PDF and the 3-dot difficulty marker throughout.",
