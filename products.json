@@ -210,13 +210,13 @@
       "price": 399,
       "mrp": 499,
       "weight": 1.25,
-      "length": 29,
-      "breadth": 22,
-      "height": 1.1,
+      "length": 1,
+      "breadth": 1,
+      "height": 1,
       "dimensions": {
-        "height": 1.1,
-        "breadth": 22,
-        "length": 29
+        "height": 1,
+        "breadth": 1,
+        "length": 1
       },
       "badge": "EC · EE · IN",
       "inStock": true,
@@ -266,13 +266,13 @@
       "price": 299,
       "mrp": 399,
       "weight": 0.75,
-      "length": 29,
-      "breadth": 22,
-      "height": 0.7,
+      "length": 1,
+      "breadth": 1,
+      "height": 1,
       "dimensions": {
-        "height": 0.7,
-        "breadth": 22,
-        "length": 29
+        "height": 1,
+        "breadth": 1,
+        "length": 1
       },
       "badge": "EC · EE · IN",
       "inStock": true,
@@ -322,13 +322,13 @@
       "price": 199,
       "mrp": 299,
       "weight": 0.4,
-      "length": 29,
-      "breadth": 22,
-      "height": 0.4,
+      "length": 1,
+      "breadth": 1,
+      "height": 1,
       "dimensions": {
-        "height": 0.4,
-        "breadth": 22,
-        "length": 29
+        "height": 1,
+        "breadth": 1,
+        "length": 1
       },
       "badge": "EC",
       "inStock": true,
@@ -375,13 +375,13 @@
       "price": 249,
       "mrp": 349,
       "weight": 0.65,
-      "length": 29,
-      "breadth": 22,
-      "height": 0.7,
+      "length": 1,
+      "breadth": 1,
+      "height": 1,
       "dimensions": {
-        "height": 0.7,
-        "breadth": 22,
-        "length": 29
+        "height": 1,
+        "breadth": 1,
+        "length": 1
       },
       "badge": "EE",
       "inStock": true,
@@ -428,13 +428,13 @@
       "price": 199,
       "mrp": 299,
       "weight": 0.6,
-      "length": 29,
-      "breadth": 22,
-      "height": 0.5,
+      "length": 1,
+      "breadth": 1,
+      "height": 1,
       "dimensions": {
-        "height": 0.5,
-        "breadth": 22,
-        "length": 29
+        "height": 1,
+        "breadth": 1,
+        "length": 1
       },
       "badge": "All Branches",
       "inStock": true,
@@ -481,13 +481,13 @@
       "price": 199,
       "mrp": 299,
       "weight": 0.55,
-      "length": 29,
-      "breadth": 22,
-      "height": 0.5,
+      "length": 1,
+      "breadth": 1,
+      "height": 1,
       "dimensions": {
-        "height": 0.5,
-        "breadth": 22,
-        "length": 29
+        "height": 1,
+        "breadth": 1,
+        "length": 1
       },
       "badge": "All Branches",
       "inStock": true,
