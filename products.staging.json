@@ -1,6 +1,6 @@
 {
   "settings": {
-    "storeOpen": false,
+    "storeOpen": true,
     "maintenanceMessage": "We'll Be Back Soon!",
     "shippingNoticeActive": true,
     "shippingNoticeMessage": "Due to the initial printing and dispatch process, orders placed at launch may take 10–12 days to arrive.",
