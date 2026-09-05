@@ -27,7 +27,7 @@
       "name": "GATE 2027 EC Complete Bundle",
       "price": 899,
       "mrp": 1799,
-      "weight": 3.45,
+      "weight": 3.48,
       "badge": "EC",
       "inStock": true,
       "description": "Everything GATE Electronics & Communication needs, in one box: Engineering Mathematics, NexusX Volume 1 and Volume 2, SiliconX and General Aptitude. Five books, 6800+ chapter-wise previous-year questions with detailed multi-approach solutions, companion solutions PDFs for every title, and the 3-dot difficulty marker throughout. Covers the common EC/EE/IN subjects, the EC branch core, the maths, and the aptitude - nothing else to buy.",
@@ -65,9 +65,10 @@
       "section": "bundles",
       "bundleComponents": [
         "engineering-mathematics",
-        "nexusx",
         "siliconx",
-        "general-aptitude"
+        "general-aptitude",
+        "nexus-v1",
+        "nexus-v2"
       ],
       "bundleSplitPrice": 0
     },
@@ -76,7 +77,7 @@
       "name": "GATE 2027 EE Complete Bundle",
       "price": 899,
       "mrp": 1799,
-      "weight": 3.7,
+      "weight": 3.72,
       "badge": "EE",
       "inStock": true,
       "description": "Everything GATE Electrical needs, in one box: Engineering Mathematics, NexusX Volume 1 and Volume 2, PowerX and General Aptitude. Five books, 7400+ chapter-wise previous-year questions with detailed multi-approach solutions, companion solutions PDFs for every title, and the 3-dot difficulty marker throughout. Covers the common EC/EE/IN subjects, the EE branch core, the maths, and the aptitude - nothing else to buy.",
@@ -114,9 +115,10 @@
       "section": "bundles",
       "bundleComponents": [
         "engineering-mathematics",
-        "nexusx",
         "powerx",
-        "general-aptitude"
+        "general-aptitude",
+        "nexus-v1",
+        "nexus-v2"
       ],
       "bundleSplitPrice": 0
     },
@@ -125,7 +127,7 @@
       "name": "NexusX (Volume 1 + Volume 2)",
       "price": 499,
       "mrp": 899,
-      "weight": 1.95,
+      "weight": 1.92,
       "badge": "EC · EE · IN",
       "inStock": true,
       "description": "Both NexusX volumes, sold together as one set. Volume 1 covers Network Theory, Analog Electronics and Digital Electronics (2000+ questions); Volume 2 covers Signals & Systems and Control Systems (1300+ questions). Together they cover every subject EC, EE and IN share, with 3300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions, companion solutions PDFs and a 3-dot difficulty marker on every question.",
@@ -169,7 +171,10 @@
       ],
       "image": "images/nexusx-vol1-front.jpg",
       "section": "bundles",
-      "bundleComponents": [],
+      "bundleComponents": [
+        "nexus-v1",
+        "nexus-v2"
+      ],
       "bundleSplitPrice": 499
     },
     {
