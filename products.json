@@ -84,7 +84,7 @@
     {
       "id": "ee-complete-bundle",
       "name": "GATE 2027 EE Complete Bundle",
-      "price": 899,
+      "price": 1,
       "mrp": 1799,
       "weight": 3.75,
       "length": 29,
@@ -319,7 +319,7 @@
     {
       "id": "siliconx",
       "name": "SiliconX",
-      "price": 199,
+      "price": 1,
       "mrp": 299,
       "weight": 0.4,
       "length": 29,
