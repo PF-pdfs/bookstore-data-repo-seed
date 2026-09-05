@@ -170,7 +170,7 @@
         "images/nexusx-vol2-front.jpg"
       ],
       "image": "images/nexusx-vol1-front.jpg",
-      "section": "bundles",
+      "section": "individual-books",
       "bundleComponents": [
         "nexus-v1",
         "nexus-v2"
