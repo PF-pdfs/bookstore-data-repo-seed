@@ -2,8 +2,8 @@
   "settings": {
     "storeOpen": true,
     "maintenanceMessage": "We'll Be Back Soon!",
-    "shippingNoticeActive": false,
-    "shippingNoticeMessage": "Due to the initial printing and dispatch process, orders placed at launch may take 10–12 days to arrive.",
+    "shippingNoticeActive": true,
+    "shippingNoticeMessage": "Selling Out Fast! 50% of our inventory is already gone. Secure your copies now!",
     "postPurchaseHeading": "Order confirmed!",
     "postPurchaseBody": "Thanks for shopping with PrepFusion. You'll get your tracking details on WhatsApp once your order ships - usually within 72 hours, as booking the shipment takes a little time. You can also check your order any time on the My account page.",
     "postPurchaseCtaLabel": "Explore our courses",
