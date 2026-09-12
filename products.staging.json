@@ -65,6 +65,10 @@
         {
           "label": "Format",
           "value": "A4 paperback"
+        },
+        {
+          "label": "Pages",
+          "value": "1381"
         }
       ],
       "images": [
@@ -124,6 +128,10 @@
         {
           "label": "Format",
           "value": "A4 paperback"
+        },
+        {
+          "label": "Pages",
+          "value": "1503"
         }
       ],
       "images": [
@@ -191,6 +199,10 @@
         {
           "label": "Includes",
           "value": "Companion solutions PDFs"
+        },
+        {
+          "label": "Pages",
+          "value": "794"
         }
       ],
       "images": [
@@ -359,6 +371,10 @@
         {
           "label": "Includes",
           "value": "Companion solutions PDF"
+        },
+        {
+          "label": "Pages",
+          "value": "148"
         }
       ],
       "images": [
@@ -412,6 +428,10 @@
         {
           "label": "Includes",
           "value": "Companion solutions PDF"
+        },
+        {
+          "label": "Pages",
+          "value": "270"
         }
       ],
       "images": [
@@ -465,6 +485,10 @@
         {
           "label": "Includes",
           "value": "Companion solutions PDF"
+        },
+        {
+          "label": "Pages",
+          "value": "228"
         }
       ],
       "images": [
@@ -518,6 +542,10 @@
         {
           "label": "Includes",
           "value": "Companion solutions PDF"
+        },
+        {
+          "label": "Pages",
+          "value": "211"
         }
       ],
       "images": [
