@@ -1,0 +1,52 @@
+name: Deploy catalog to Pages
+
+# Replaces GitHub's built-in "pages build and deployment" (which can't be
+# started by hand and has been getting stuck in the queue). Runs on every
+# push to main - i.e. every Publish from the admin portal - and can be
+# started manually from Actions -> "Deploy catalog to Pages" -> Run workflow.
+#
+# Requires Settings -> Pages -> Source: "GitHub Actions".
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# A newer publish supersedes an older one still waiting: only the latest
+# catalog matters, so a stuck run never blocks the next one.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # Publish the same files the old Jekyll build did: everything except
+      # names starting with "_" or "." (so _handoff/ stays unpublished).
+      - name: Collect site files
+        run: |
+          mkdir -p _site
+          for f in *; do
+            case "$f" in _*|.*) continue ;; esac
+            cp -R "$f" _site/
+          done
+          touch _site/.nojekyll
+          ls -la _site
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
