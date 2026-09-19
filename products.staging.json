@@ -152,7 +152,7 @@
     {
       "id": "maths-aptitude-combo",
       "name": "Engineering Mathematics + General Aptitude Combo",
-      "price": 449,
+      "price": 499,
       "mrp": 899,
       "weight": 1.2,
       "length": 29,
@@ -200,6 +200,70 @@
       "bundleComponents": [
         "engineering-mathematics",
         "general-aptitude"
+      ],
+      "bundleSplitPrice": 0
+    },
+    {
+      "id": "nexusx-maths-aptitude-combo",
+      "name": "NexusX + Engineering Mathematics + General Aptitude Combo",
+      "price": 899,
+      "mrp": 2399,
+      "weight": 3.2,
+      "length": 29,
+      "breadth": 22,
+      "height": 4,
+      "dimensions": {
+        "height": 4,
+        "breadth": 22,
+        "length": 29
+      },
+      "badge": "EC · EE · IN",
+      "inStock": true,
+      "visible": true,
+      "description": "The common core every EC, EE and IN aspirant needs, in one box: NexusX Volume 1 and Volume 2, Engineering Mathematics and General Aptitude. Four books, 6200+ chapter-wise previous-year questions with detailed multi-approach solutions, companion solutions PDFs for every title, and the 3-dot difficulty marker throughout. Add your branch core book (SiliconX or PowerX) separately.",
+      "details": [
+        {
+          "label": "Books",
+          "value": "4 books"
+        },
+        {
+          "label": "Questions",
+          "value": "6200+"
+        },
+        {
+          "label": "Branches",
+          "value": "EC, EE, IN"
+        },
+        {
+          "label": "Years covered",
+          "value": "1987-2026"
+        },
+        {
+          "label": "Includes",
+          "value": "Engineering Mathematics, NexusX Vol 1 & 2, General Aptitude"
+        },
+        {
+          "label": "Format",
+          "value": "A4 paperback"
+        },
+        {
+          "label": "Pages",
+          "value": "1233"
+        }
+      ],
+      "images": [
+        "images/nexusx-vol1-front.jpg",
+        "images/nexusx-vol2-front.jpg",
+        "images/engineering-mathematics-front.jpg",
+        "images/general-aptitude-front.jpg"
+      ],
+      "image": "images/nexusx-vol1-front.jpg",
+      "section": "bundles",
+      "bundleComponents": [
+        "engineering-mathematics",
+        "general-aptitude",
+        "nexus-v1",
+        "nexus-v2"
       ],
       "bundleSplitPrice": 0
     },
