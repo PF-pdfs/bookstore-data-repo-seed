@@ -26,8 +26,8 @@
     {
       "id": "ec-complete-bundle",
       "name": "GATE 2027 EC Complete Bundle",
-      "price": 899,
-      "mrp": 1799,
+      "price": 999,
+      "mrp": 2899,
       "weight": 3.5,
       "length": 29,
       "breadth": 22,
@@ -89,8 +89,8 @@
     {
       "id": "ee-complete-bundle",
       "name": "GATE 2027 EE Complete Bundle",
-      "price": 899,
-      "mrp": 1799,
+      "price": 999,
+      "mrp": 2999,
       "weight": 3.75,
       "length": 29,
       "breadth": 22,
@@ -150,10 +150,64 @@
       "bundleSplitPrice": 0
     },
     {
+      "id": "maths-aptitude-combo",
+      "name": "Engineering Mathematics + General Aptitude Combo",
+      "price": 449,
+      "mrp": 899,
+      "weight": 1.2,
+      "length": 29,
+      "breadth": 22,
+      "height": 3,
+      "dimensions": {
+        "height": 3,
+        "breadth": 22,
+        "length": 29
+      },
+      "badge": "All Branches",
+      "inStock": true,
+      "visible": true,
+      "description": "The two books every GATE branch needs, together: Engineering Mathematics (33 years of GATE maths, 1700+ chapter-wise PYQs) and General Aptitude (17 years, 1200+ questions organised session-wise). Detailed solutions and companion solutions PDFs for both, and the 3-dot difficulty marker throughout.",
+      "details": [
+        {
+          "label": "Books",
+          "value": "2 books"
+        },
+        {
+          "label": "Includes",
+          "value": "Engineering Mathematics, General Aptitude"
+        },
+        {
+          "label": "Branches",
+          "value": "All"
+        },
+        {
+          "label": "Format",
+          "value": "A4 paperback"
+        },
+        {
+          "label": "Pages",
+          "value": "439"
+        }
+      ],
+      "images": [
+        "images/engineering-mathematics-front.jpg",
+        "images/general-aptitude-front.jpg",
+        "images/engineering-mathematics-back.jpg",
+        "images/general-aptitude-back.jpg"
+      ],
+      "image": "images/engineering-mathematics-front.jpg",
+      "section": "bundles",
+      "bundleComponents": [
+        "engineering-mathematics",
+        "general-aptitude"
+      ],
+      "bundleSplitPrice": 0
+    },
+    {
       "id": "nexusx",
       "name": "NexusX (Volume 1 + Volume 2)",
-      "price": 499,
-      "mrp": 899,
+      "price": 599,
+      "mrp": 1499,
       "weight": 1.95,
       "length": 29,
       "breadth": 22,
@@ -215,13 +269,13 @@
         "nexus-v1",
         "nexus-v2"
       ],
-      "bundleSplitPrice": 499
+      "bundleSplitPrice": 599
     },
     {
       "id": "nexus-v1",
       "name": "NexusX (Volume 1)",
       "price": 399,
-      "mrp": 499,
+      "mrp": 899,
       "weight": 1.25,
       "length": 1,
       "breadth": 1,
@@ -277,7 +331,7 @@
       "id": "nexus-v2",
       "name": "NexusX (Volume 2)",
       "price": 299,
-      "mrp": 399,
+      "mrp": 599,
       "weight": 0.75,
       "length": 1,
       "breadth": 1,
@@ -332,8 +386,8 @@
     {
       "id": "siliconx",
       "name": "SiliconX",
-      "price": 199,
-      "mrp": 299,
+      "price": 249,
+      "mrp": 499,
       "weight": 0.4,
       "length": 1,
       "breadth": 1,
@@ -384,13 +438,13 @@
       "image": "images/siliconx-front.jpg",
       "section": "individual-books",
       "bundleComponents": [],
-      "bundleSplitPrice": 199
+      "bundleSplitPrice": 249
     },
     {
       "id": "powerx",
       "name": "PowerX",
-      "price": 249,
-      "mrp": 349,
+      "price": 299,
+      "mrp": 599,
       "weight": 0.65,
       "length": 1,
       "breadth": 1,
@@ -441,13 +495,13 @@
       "image": "images/powerx-front.jpg",
       "section": "individual-books",
       "bundleComponents": [],
-      "bundleSplitPrice": 249
+      "bundleSplitPrice": 299
     },
     {
       "id": "engineering-mathematics",
       "name": "Engineering Mathematics",
-      "price": 199,
-      "mrp": 299,
+      "price": 299,
+      "mrp": 499,
       "weight": 0.6,
       "length": 1,
       "breadth": 1,
@@ -498,13 +552,13 @@
       "image": "images/engineering-mathematics-front.jpg",
       "section": "individual-books",
       "bundleComponents": [],
-      "bundleSplitPrice": 199
+      "bundleSplitPrice": 299
     },
     {
       "id": "general-aptitude",
       "name": "General Aptitude",
-      "price": 199,
-      "mrp": 299,
+      "price": 249,
+      "mrp": 399,
       "weight": 0.55,
       "length": 1,
       "breadth": 1,
@@ -555,7 +609,7 @@
       "image": "images/general-aptitude-front.jpg",
       "section": "individual-books",
       "bundleComponents": [],
-      "bundleSplitPrice": 199
+      "bundleSplitPrice": 249
     }
   ]
 }
