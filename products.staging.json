@@ -43,6 +43,10 @@
       "description": "Everything GATE Electronics & Communication needs, in one box: Engineering Mathematics, NexusX Volume 1 and Volume 2, SiliconX and General Aptitude. Five books, 6800+ chapter-wise previous-year questions with detailed multi-approach solutions, companion solutions PDFs for every title, and the 3-dot difficulty marker throughout. Covers the common EC/EE/IN subjects, the EC branch core, the maths, and the aptitude - nothing else to buy.",
       "details": [
         {
+          "label": "Highlight",
+          "value": "9 subjects | + General Aptitude"
+        },
+        {
           "label": "Books",
           "value": "5 books"
         },
@@ -105,6 +109,10 @@
       "visible": true,
       "description": "Everything GATE Electrical needs, in one box: Engineering Mathematics, NexusX Volume 1 and Volume 2, PowerX and General Aptitude. Five books, 7400+ chapter-wise previous-year questions with detailed multi-approach solutions, companion solutions PDFs for every title, and the 3-dot difficulty marker throughout. Covers the common EC/EE/IN subjects, the EE branch core, the maths, and the aptitude - nothing else to buy.",
       "details": [
+        {
+          "label": "Highlight",
+          "value": "11 subjects | + General Aptitude"
+        },
         {
           "label": "Books",
           "value": "5 books"
@@ -169,6 +177,10 @@
       "description": "The two books every GATE branch needs, together: Engineering Mathematics (33 years of GATE maths, 1700+ chapter-wise PYQs) and General Aptitude (17 years, 1200+ questions organised session-wise). Detailed solutions and companion solutions PDFs for both, and the 3-dot difficulty marker throughout.",
       "details": [
         {
+          "label": "Highlight",
+          "value": "2 books | Maths + Aptitude"
+        },
+        {
           "label": "Books",
           "value": "2 books"
         },
@@ -222,6 +234,10 @@
       "visible": true,
       "description": "The common core every EC, EE and IN aspirant needs, in one box: NexusX Volume 1 and Volume 2, Engineering Mathematics and General Aptitude. Four books, 6200+ chapter-wise previous-year questions with detailed multi-approach solutions, companion solutions PDFs for every title, and the 3-dot difficulty marker throughout. Add your branch core book (SiliconX or PowerX) separately.",
       "details": [
+        {
+          "label": "Highlight",
+          "value": "6 subjects | + General Aptitude"
+        },
         {
           "label": "Books",
           "value": "4 books"
@@ -291,8 +307,8 @@
       "description": "Vol 1 + Vol 2 = 5 subjects. Both NexusX volumes, sold together as one set. Volume 1 covers Network Theory, Analog Electronics and Digital Electronics (2000+ questions); Volume 2 covers Signals & Systems and Control Systems (1300+ questions). Together they cover every subject EC, EE and IN share, with 3300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions, companion solutions PDFs and a 3-dot difficulty marker on every question.",
       "details": [
         {
-          "label": "Subjects",
-          "value": "5 subjects across Vol 1 + Vol 2"
+          "label": "Highlight",
+          "value": "5 subjects | Vol 1: 3 + Vol 2: 2"
         },
         {
           "label": "Included",
@@ -365,6 +381,10 @@
       "description": "Volume 1 covers Network Theory, Analog Electronics and Digital Electronics (2000+ questions). Together they cover every subject EC, EE and IN share, with 3300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions, companion solutions PDFs and a 3-dot difficulty marker on every question.",
       "details": [
         {
+          "label": "Highlight",
+          "value": "3 subjects | Network, Analog, Digital"
+        },
+        {
           "label": "Included",
           "value": "Volume 1  (1 book)"
         },
@@ -421,6 +441,10 @@
       "visible": false,
       "description": "Volume 2 covers Signals & Systems and Control Systems (1300+ questions). Together they cover every subject EC, EE and IN share, with 3300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions, companion solutions PDFs and a 3-dot difficulty marker on every question.",
       "details": [
+        {
+          "label": "Highlight",
+          "value": "2 subjects | Signals, Control Systems"
+        },
         {
           "label": "Included",
           "value": "Volume 2 (1 book)"
@@ -479,6 +503,10 @@
       "description": "The core of GATE Electronics & Communication: Electronic Devices, Communications and Electromagnetics. 600+ chapter-wise PYQs from 1987-2026 with detailed multi-approach solutions and the companion solutions PDF.",
       "details": [
         {
+          "label": "Highlight",
+          "value": "3 subjects | Devices, Comms, EM"
+        },
+        {
           "label": "Questions",
           "value": "600+"
         },
@@ -535,6 +563,10 @@
       "visible": true,
       "description": "The core of GATE Electrical Engineering in one book: Electrical Machines, Power Systems, Power Electronics, Electromagnetic Fields and Measurements. 1200+ chapter-wise PYQs from 1987-2026 with detailed multi-approach solutions and the companion solutions PDF.",
       "details": [
+        {
+          "label": "Highlight",
+          "value": "5 subjects | The full EE core"
+        },
         {
           "label": "Questions",
           "value": "1200+"
@@ -593,6 +625,10 @@
       "description": "33 years of GATE mathematics (1994-2026) across EC, EE, IN, CS, ME, CE, CH and PI: Calculus, Linear Algebra, Differential Equations, Vector Calculus, Probability & Statistics and Numerical Methods. 1700+ chapter-wise PYQs with detailed solutions and the companion solutions PDF.",
       "details": [
         {
+          "label": "Highlight",
+          "value": "6 topics | Calculus to Numerical"
+        },
+        {
           "label": "Questions",
           "value": "1700+"
         },
@@ -649,6 +685,10 @@
       "visible": true,
       "description": "Every General Aptitude question GATE has asked since the GA section began: 17 years (2010-2026), 1200+ questions, organised session-wise so you can drill full papers. Detailed solutions, the companion solutions PDF and the 3-dot difficulty marker throughout.",
       "details": [
+        {
+          "label": "Highlight",
+          "value": "17 years | 2010-2026, session-wise"
+        },
         {
           "label": "Questions",
           "value": "1200+"
