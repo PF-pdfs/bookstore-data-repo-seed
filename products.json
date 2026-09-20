@@ -255,7 +255,11 @@
         "images/nexusx-vol1-front.jpg",
         "images/nexusx-vol2-front.jpg",
         "images/engineering-mathematics-front.jpg",
-        "images/general-aptitude-front.jpg"
+        "images/general-aptitude-front.jpg",
+        "images/nexusx-vol1-back.jpg",
+        "images/nexusx-vol2-back.jpg",
+        "images/engineering-mathematics-back.jpg",
+        "images/general-aptitude-back.jpg"
       ],
       "image": "images/nexusx-vol1-front.jpg",
       "section": "bundles",
@@ -284,8 +288,12 @@
       "badge": "EC · EE · IN",
       "inStock": true,
       "visible": true,
-      "description": "Both NexusX volumes, sold together as one set. Volume 1 covers Network Theory, Analog Electronics and Digital Electronics (2000+ questions); Volume 2 covers Signals & Systems and Control Systems (1300+ questions). Together they cover every subject EC, EE and IN share, with 3300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions, companion solutions PDFs and a 3-dot difficulty marker on every question.",
+      "description": "Vol 1 + Vol 2 = 5 subjects. Both NexusX volumes, sold together as one set. Volume 1 covers Network Theory, Analog Electronics and Digital Electronics (2000+ questions); Volume 2 covers Signals & Systems and Control Systems (1300+ questions). Together they cover every subject EC, EE and IN share, with 3300+ chapter-wise GATE questions from 1987-2026, detailed multi-approach solutions, companion solutions PDFs and a 3-dot difficulty marker on every question.",
       "details": [
+        {
+          "label": "Subjects",
+          "value": "5 subjects across Vol 1 + Vol 2"
+        },
         {
           "label": "Included",
           "value": "Volume 1 + Volume 2 (2 books)"
@@ -325,7 +333,9 @@
       ],
       "images": [
         "images/nexusx-vol1-front.jpg",
-        "images/nexusx-vol2-front.jpg"
+        "images/nexusx-vol2-front.jpg",
+        "images/nexusx-vol1-back.jpg",
+        "images/nexusx-vol2-back.jpg"
       ],
       "image": "images/nexusx-vol1-front.jpg",
       "section": "individual-books",
@@ -384,7 +394,8 @@
         }
       ],
       "images": [
-        "images/nexusx-vol1-front.jpg"
+        "images/nexusx-vol1-front.jpg",
+        "images/nexusx-vol1-back.jpg"
       ],
       "image": "images/nexusx-vol1-front.jpg",
       "section": "individual-books",
@@ -440,7 +451,8 @@
         }
       ],
       "images": [
-        "images/nexusx-vol2-front.jpg"
+        "images/nexusx-vol2-front.jpg",
+        "images/nexusx-vol2-back.jpg"
       ],
       "image": "images/nexusx-vol2-front.jpg",
       "section": "individual-books",
