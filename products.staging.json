@@ -1,6 +1,6 @@
 {
   "settings": {
-    "storeOpen": false,
+    "storeOpen": true,
     "maintenanceMessage": "We'll Be Back Soon!",
     "shippingNoticeActive": true,
     "shippingNoticeMessage": "Most books are currently out of stock — we are in the process of printing a new batch and expect them back in stock by 15 Oct 2026. Thanks for your patience!",
