@@ -26,7 +26,7 @@
     {
       "id": "ec-complete-bundle",
       "name": "GATE 2027 EC Complete Bundle",
-      "price": 999,
+      "price": 1199,
       "mrp": 2899,
       "weight": 3.5,
       "length": 29,
@@ -93,7 +93,7 @@
     {
       "id": "ee-complete-bundle",
       "name": "GATE 2027 EE Complete Bundle",
-      "price": 999,
+      "price": 1199,
       "mrp": 2999,
       "weight": 3.75,
       "length": 29,
@@ -218,7 +218,7 @@
     {
       "id": "nexusx-maths-aptitude-combo",
       "name": "NexusX + Engineering Mathematics + General Aptitude Combo",
-      "price": 899,
+      "price": 999,
       "mrp": 2399,
       "weight": 3.2,
       "length": 29,
@@ -290,7 +290,7 @@
     {
       "id": "nexusx",
       "name": "NexusX (Volume 1 + Volume 2)",
-      "price": 599,
+      "price": 649,
       "mrp": 1499,
       "weight": 1.95,
       "length": 29,
@@ -359,7 +359,7 @@
         "nexus-v1",
         "nexus-v2"
       ],
-      "bundleSplitPrice": 599
+      "bundleSplitPrice": 649
     },
     {
       "id": "nexus-v1",
@@ -486,7 +486,7 @@
     {
       "id": "siliconx",
       "name": "SiliconX",
-      "price": 249,
+      "price": 299,
       "mrp": 499,
       "weight": 0.4,
       "length": 1,
@@ -542,7 +542,7 @@
       "image": "images/siliconx-front.jpg",
       "section": "individual-books",
       "bundleComponents": [],
-      "bundleSplitPrice": 249
+      "bundleSplitPrice": 299
     },
     {
       "id": "powerx",
@@ -669,7 +669,7 @@
     {
       "id": "general-aptitude",
       "name": "General Aptitude",
-      "price": 249,
+      "price": 299,
       "mrp": 399,
       "weight": 0.55,
       "length": 1,
@@ -725,7 +725,7 @@
       "image": "images/general-aptitude-front.jpg",
       "section": "individual-books",
       "bundleComponents": [],
-      "bundleSplitPrice": 249
+      "bundleSplitPrice": 299
     }
   ]
 }
